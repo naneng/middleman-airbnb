@@ -1,0 +1,21 @@
+<div class="container">
+  <h2 class="text-center">Recent Flats</h2>
+  <div class="row">
+    <% data.owners.each do |owner, info| %>
+
+        <div class="col-xs-12 col-sm-4">
+          <!-- insert <div class="card"> -->
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('images/<%= info.city %>.jpg');">
+            <div class="card-category"><%= info.city %></div>
+            <div class="card-description">
+              <h2><%= info.name.capitalize %>'s Room</h2>
+              <p><%= info.message %></p>
+            </div>
+            <img class="card-user" src="images/<%= info.name %>.png">
+            <a class="card-link" href="#" ></a>
+          </div>
+        </div>
+   <% end %>
+
+  </div>
+</div>

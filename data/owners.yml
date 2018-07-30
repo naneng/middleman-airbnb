@@ -1,0 +1,12 @@
+archer:
+  name: "archer"
+  city: "tokyo"
+  message: "Charming room with complementary Old Fashion"
+cyril:
+  name: "cyril"
+  city: "sanfrancisco"
+  message: "Bay windows with a great view of the Goldengate Bridge"
+lana:
+  name: "lana"
+  city: "philadelphia"
+  message: "Two bedroom with an indoor garden"
